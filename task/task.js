@@ -19,15 +19,17 @@ function createTask(title, completed){
 }
 rl.on('line', function(input) {
     
-tasks = input.split(' ')
+var tasks = input.split(' ')
+if (tasks[0] === "add"){
+tasks.push(createTask(tasks[1]+' '+tasks[2]  , false))
 
-tasks.push(createTask(title , false))
+console.log(tasks[3])
+}
+else{
+    console.log("the first word must be add")
+}
 
 })
 
-function forEachElem(arr, callback){
-    for (var i = 0; i < arr.length; i++){
-        callback(arr[i], i)
-    }
-}
+
 
