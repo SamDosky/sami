@@ -1,0 +1,44 @@
+body{
+    width : 40em;
+    text-align: center;
+    margin: auto;
+}
+
+
+h1 {
+    padding: 10px;
+    border: 2px;
+    border-style: solid;
+    margin: 20px;
+    text-align: center;
+}
+
+.container {
+    background-color: rgb(192, 248, 255);
+    border-radius: 5px;
+    padding:10px;
+    margin: 20px;
+    border-style: solid;
+
+}
+
+.container p {
+
+    margin:20px;
+}
+
+
+#bear {
+    float: right;
+    width: 40%;
+}
+
+@media (max-width:961px) {
+
+    body{
+        width : 30em;
+        text-align: center;
+        margin: auto;
+    }
+
+}
