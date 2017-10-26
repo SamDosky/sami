@@ -1,0 +1,83 @@
+
+body{
+    font-size: 25px;
+    font-family: fantasy ;
+    margin: 0px;
+    background-color: rgb(240, 212, 208);
+   
+}
+
+.sideBar{
+    width: 20%;
+    height:100%;
+    background-color: rgb(175, 223, 179);
+    margin: 0px;
+    position: absolute;
+   
+}
+
+.sideBar a{
+    display :block;
+    padding : 20px;
+    margin: 50px 0px 0px 0px ;
+}
+.sideBar a:hover{
+    display :block;
+    padding : 20px;
+    margin: 50px 0px 0px 0px ;
+    color: white
+}
+.strImg {
+    width: 50%;
+    height: 50%;
+    margin-left: 350px;
+}
+
+#paragraph{
+    margin-left : 300px;
+    margin-right:100px;
+    font-size : 50%;
+    text-align: left;
+}
+
+
+@media(max-width: 1000px) {
+
+.sideBar{
+    display: none;
+}
+#paragraph{
+    margin-left : 0px;
+    margin-right: 100px;
+    font-size : 10px;
+}
+.strImg {
+    width: 50%;
+    height: 50%;
+    margin-left: 0px;
+}
+}
+
+@media print {
+   
+.sideBar{
+    display: none;
+}
+body{
+   
+    size:100%;
+    background-color: none;
+}
+
+.strImg {
+    width: auto;
+    height: auto;
+    margin-left: auto;
+}
+
+#paragraph{
+    margin : auto;
+    font-size : 10px;
+}
+
+}
