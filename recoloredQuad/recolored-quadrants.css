@@ -1,0 +1,13 @@
+#topleft { position: absolute; top: 0; left: 0; right: 50%; bottom: 50%; 
+    background: rgb(255, 255, 255); border:solid #000; border-width: 0; }
+#topright { position: absolute; top: 0; left: 50%; right: 0; bottom: 50%; 
+    background: rgb(255, 255, 255); border:solid #000; border-width: 0; }
+#bottomleft { position: absolute; top: 50%; left: 0; right: 50%; bottom: 0; 
+    background: rgb(255, 255, 255); border:solid #000; border-width: 0; }
+#bottomright { position: absolute; top: 50%; left: 50%; right: 0; bottom: 0; 
+    background: rgb(255, 255, 255); } 
+
+body {
+    height:100%;
+    width:100%;
+}
